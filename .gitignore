@@ -1,6 +1,6 @@
 !.gitignore
 .ipynb_checkpoints
-FDDB_2010
+FDDB_2010/JPEGImages/*.jpg
 pyxml
 face detection.zip
 test.ipynb
