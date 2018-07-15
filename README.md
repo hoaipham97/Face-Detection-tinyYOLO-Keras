@@ -19,7 +19,7 @@ Also included `.txt` files following darket in the `FDDB_2010/JPEGImages` folder
 3. `train` and `test`
 
 # Note
-The `tinyYOLO` implementation is not accurate enough. I trained it for `200` iterations and found minimal but promising result. 
+The `tinyYOLO` implementation is not accurate enough. I trained it for `200` iterations and found minimal but promising results. 
 
 # Needed
 1. Better implementation of `NMS` for `bounding-Boxes`. 
