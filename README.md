@@ -6,10 +6,10 @@ Simple implementaion of **tinyYolo** trained on **FDDB dataset** for face detect
 Download tinyYOLO cfg and weights from darkent and convert them using [YAD2K](https://github.com/allanzelener/YAD2K)
 
 ## Step 2
-Download FDDB data set and extract annotations in XML using [converter](https://github.com/penolove/FDDB_DataSet_4_faster_rcnn)
+Download FDDB dataset and extract annotations in XML using [converter](https://github.com/penolove/FDDB_DataSet_4_faster_rcnn)
 
 I have already included `.xml` annotation in the `FDDB_2010/Annotations` folder
-Also included `.txt` files folowing darket in the `FDDB_2010/JPEGImages` folder
+Also included `.txt` files following darket in the `FDDB_2010/JPEGImages` folder
 
 
 ## Step 3
@@ -22,9 +22,9 @@ Also included `.txt` files folowing darket in the `FDDB_2010/JPEGImages` folder
 The `tinyYOLO` implementation is not accurate enough. I trained it for `200` iterations and found minimal but promising result. 
 
 # Needed
-1. Better implementation of `NMS` for `boundingBoxes`
+1. Better implementation of `NMS` for `bounding-Boxes`
 
 
-Based on reference from [experiencor](https://github.com/experiencor/keras-yolo2)
+Based on reference from [experiencor](https://github.com/experiencor/keras-yolo2). Similar implementation can be found [here](https://github.com/joycex99/tiny-yolo-keras) but i haved made a few changes in the `utils` folder.
 
 
