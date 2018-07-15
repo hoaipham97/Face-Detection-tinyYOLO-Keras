@@ -22,7 +22,8 @@ Also included `.txt` files following darket in the `FDDB_2010/JPEGImages` folder
 The `tinyYOLO` implementation is not accurate enough. I trained it for `200` iterations and found minimal but promising result. 
 
 # Needed
-1. Better implementation of `NMS` for `bounding-Boxes`. You can use a full-blown implemention of `YoloV2` or `YoloV3`, but will be needing atleast `5.5GB` of VRAM. Step-by-Step implementation for the same can be found at `experiencor-repo` mentioned below. I have implemented the same for `F1-RaceCar` detection [here](https://github.com/dAmnation69/Deep-Learning-Python/tree/master/05.Keras-Object%20Detection)
+1. Better implementation of `NMS` for `bounding-Boxes`. 
+2. You can use a full-blown implemention of `YoloV2` or `YoloV3`, but will be needing atleast `5.5GB` of VRAM. Step-by-Step implementation for the same can be found at `experiencor-repo` mentioned below. I have implemented the same for `F1-RaceCar` detection [here](https://github.com/dAmnation69/Deep-Learning-Python/tree/master/05.Keras-Object%20Detection)
 
 
 Based on reference from [experiencor](https://github.com/experiencor/keras-yolo2). Similar implementation can be found [here](https://github.com/joycex99/tiny-yolo-keras) but i haved made a few changes to `utils` and the code iteself.
