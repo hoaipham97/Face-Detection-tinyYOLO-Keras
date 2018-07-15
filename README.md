@@ -3,7 +3,7 @@
 Simple implementaion of **tinyYolo** trained on **FDDB dataset** for face detection in **Keras**
 
 ## Step 1
-Download tinyYOLO `cfg` and `weights`(included in yolo-darknet folder)from darkent and convert them using [YAD2K](https://github.com/allanzelener/YAD2K)
+Download tinyYOLO `cfg` and `weights`(yolo-darknet folder) from darkent and convert them using [YAD2K](https://github.com/allanzelener/YAD2K)
 
 ## Step 2
 Download FDDB dataset and extract annotations in XML using [converter](https://github.com/penolove/FDDB_DataSet_4_faster_rcnn)
