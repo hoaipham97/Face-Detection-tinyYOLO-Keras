@@ -8,8 +8,7 @@ Download tinyYOLO `cfg` and `weights`(yolo-darknet folder) from darkent and conv
 ## Step 2
 Download FDDB dataset and extract annotations in XML using [converter](https://github.com/penolove/FDDB_DataSet_4_faster_rcnn)
 
-I have already included `.xml` annotation in the `FDDB_2010/Annotations` folder
-Also included `.txt` files following darket in the `FDDB_2010/JPEGImages` folder
+I have already included `.xml` annotation in the `FDDB_2010/Annotations` folder. Also included `.txt` files following darket in the `FDDB_2010/JPEGImages` folder
 
 
 ## Step 3
