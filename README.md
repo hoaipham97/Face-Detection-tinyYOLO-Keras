@@ -19,7 +19,12 @@ Also included `.txt` files folowing darket in the `FDDB_2010/JPEGImages` folder
 3. `train` and `test`
 
 # Note
-The tinyYOLO is not accurate enough. I trained it for `200` iterations and found minimal but promising result. 
- 
+The `tinyYOLO` implementation is not accurate enough. I trained it for `200` iterations and found minimal but promising result. 
+
+# Needed
+1. Better implementation of `NMS` for `boundingBoxes`
+
+
+Based on reference from [experiencor](https://github.com/experiencor/keras-yolo2)
 
 
